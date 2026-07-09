@@ -1,0 +1,12 @@
+# Kết quả build của Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Thư viện cài local
+vendor/
+.bundle/
+
+# File khóa phiên bản gem (GitHub Pages tự quản lý môi trường khi build)
+Gemfile.lock

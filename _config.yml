@@ -1,0 +1,33 @@
+# --- Thông tin site ---
+title: Blog của An Đăng
+email: your-email@example.com
+description: >-
+  Blog cá nhân về công nghệ, bảo mật (SOC) và những ghi chú kỹ thuật.
+lang: vi
+
+# Repo tên "vibedao" là PROJECT SITE => site chạy tại https://andang241.github.io/vibedao/
+# Vì vậy baseurl PHẢI là "/vibedao" (nếu để trống thì CSS/link sẽ bị hỏng).
+baseurl: "/vibedao"
+url: "https://andang241.github.io"
+
+# --- Tài khoản mạng xã hội (hiển thị ở footer của theme minima) ---
+github_username: andang241
+
+# --- Giao diện & plugin (đều nằm trong danh sách hỗ trợ của GitHub Pages) ---
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# --- Cấu hình bài viết ---
+permalink: /:year/:month/:day/:title/
+paginate: 5
+
+# --- Bỏ qua khi build ---
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - .gitignore
